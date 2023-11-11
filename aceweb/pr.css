@@ -1,0 +1,413 @@
+/* Custom CSS for Navbar */
+
+.navbar {
+    background-color: white; /* Dark background color */
+    margin-top: 1px; /* Adjust the value to move the navbar down as per your preference */
+}
+.nav-item{
+font-size: 20px;
+}
+.navbar-brand {
+    color:  #1371cff3 !important; /* White text color */
+    font-weight: bold;
+}
+.navbar-brand img{
+    max-width: 10%;
+    max-height: 10%;
+    color: #007bff;
+}
+.navbar-toggler-icon {
+    background-color: #1371cff3; /* White color for the toggle icon */
+}
+
+.navbar-nav .nav-link {
+    color: #1371cff3 !important; /* White text color for links */
+    margin-right: 15px; /* Adjust the spacing between links */
+}
+
+.navbar-nav .nav-link:hover {
+    color:  #1371cff3 !important; /* Lighter color on hover */
+}
+
+.btn-outline-secondary {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-outline-secondary:hover {
+    color: #343a40;
+    background-color: #ffffff;
+}
+
+/* Custom CSS for Hero Section */
+/* Custom CSS for Hero Section */
+body, html {
+    height: 100%; /* Set height to 100% for body and html elements */
+    margin: 0; /* Remove default margin */
+}
+
+.hero {
+    height: 95vh;
+    background: #000; /* Black background color */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white; /* Dark text color */
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: justify; /* Justify the text */
+    text-shadow: 2px 2px 4px white(0, 0, 0, 0.048); /* Add a subtle text shadow */
+    animation: fadeInUp 1.5s ease-in-out; /* Fade-in animation */
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Hover effect */
+  .text:hover {
+    color: cyan; /* Change text color on hover */
+    text-decoration: none; /* Underline text on hover */
+  }
+  .buttons {
+    text-align: center; /* Center the button horizontally */
+  }
+  
+  .btn {
+    font-size: 14px; /* Adjust the font size as needed */
+    padding: 8px 12px; /* Adjust the padding as needed */
+    width: auto; /* Set width to auto or a specific value */
+    max-width: 150px; /* Set a maximum width if needed */
+  }
+  
+  .buttons a {
+    text-decoration: none;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+  }
+  
+  .col-md-6 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+/* Setup Section Styles */
+.setup {
+  padding: 60px 0; /* Adjust the padding as needed */
+  background-color: #f8f9fa; /* Set your desired background color */
+}
+
+/* Text Header Styles */
+.text-header h3 {
+  color: #007bff; /* Set your desired text color */
+}
+
+/* Items Styles */
+.items {
+  margin-top: 30px; /* Adjust the margin as needed */
+}
+
+/* Icon Styles */
+.icons img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Description Styles */
+.desc {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 768px) {
+  .text-header h3 {
+    font-size: 24px; /* Adjust the font size for smaller screens */
+  }
+
+  .desc h5 {
+    font-size: 18px; /* Adjust the font size for smaller screens */
+  }
+}
+/* Setup Section Styles */
+.setup {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  /* Text Header Styles */
+  .text-header h3 {
+    color: #007bff;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .text-header p {
+    color: #6c757d;
+    font-size: 18px;
+  }
+  
+  /* Items Styles */
+  .items {
+    margin-top: 50px;
+  }
+  
+  /* Icon Styles */
+  .icons img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Description Styles */
+  .desc {
+    margin-top: 20px;
+  }
+  
+  .desc h5 {
+    color: #343a40;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .desc p {
+    color: #6c757d;
+    font-size: 16px;
+  }
+  
+  /* Responsive Styles for Small Screens */
+  @media (max-width: 768px) {
+    .text-header h3 {
+      font-size: 28px;
+    }
+  
+    .desc h5 {
+      font-size: 20px;
+    }
+  
+    .desc p {
+      font-size: 14px;
+    }
+  }
+  /* Info Section Styles */
+.info-1 {
+    padding: 60px 0;
+  }
+  
+  /* Text Information Styles */
+  .text-information h5 {
+    color: #007bff;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .text-information p {
+    color: #6c757d;
+    font-size: 18px;
+  }
+  
+  /* Image Styles */
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add a subtle border-radius to the image */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Styles for Small Screens */
+  @media (max-width: 768px) {
+    .text-information h5 {
+      font-size: 28px;
+    }
+  
+    .text-information p {
+      font-size: 16px;
+    }
+  }
+   /*footer starts*/
+.footer{
+    background:  #1371cff3;
+    margin:0;
+    padding:25px 0px;
+    margin-top: 2px;
+    box-sizing: border-box;
+  }
+  .row{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  ul{
+    list-style:none;
+  }
+  .footer-col {
+    width: 20%; /* Adjusted width to make it smaller */
+    padding: 0 15px;
+    margin-top: 2px;
+  }
+  
+  .footer-col h4 {
+    font-size: 22px; /* Decreased font size */
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px; /* Decreased margin */
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .footer-col ul a {
+    font-size: 14px; /* Decreased font size */
+  }
+  
+  .footer-col ul li a {
+    font-size: 20px; /* Decreased font size */
+    color: white;
+  }
+  .row {
+    text-align: center;
+  }
+  
+  .row a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px; /* Adjust font size as needed */
+    color: #e0e6eb; /* Adjust icon color as needed */
+    text-decoration: none; /* Remove underline from anchor elements */
+  }
+  
+  .row i {
+    display: inline-block;
+  }
+  
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the list items horizontally */
+  }
+  
+  ul li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  .row i {
+    display: inline-block;
+  }
+  /* Setup Section Styles */
+.setup {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  /* Text Header Styles */
+  .text-header h3 {
+    color: #007bff; /* Blue color for the heading */
+    font-size: 40px; /* Increase the font size */
+    margin-bottom: 20px;
+  }
+  
+  .text-header p {
+    color: #6c757d;
+    font-size: 18px;
+  }
+  
+  /* Items Styles */
+  .items {
+    margin-top: 50px;
+  }
+  
+  /* Icon Styles */
+  .icons img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Description Styles */
+  .desc {
+    margin-top: 20px;
+  }
+  
+  .desc h5 {
+    color: #343a40;
+    font-size: 28px; /* Increase the font size */
+    margin-bottom: 10px;
+  }
+  
+  .desc p {
+    color: #6c757d;
+    font-size: 18px; /* Increase the font size */
+  }
+  
+  /* Responsive Styles for Small Screens */
+  @media (max-width: 768px) {
+    .text-header h3 {
+      font-size: 32px;
+    }
+  
+    .desc h5 {
+      font-size: 24px;
+    }
+  
+    .desc p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Image Styles */
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover effect on icons */
+  .icons:hover img {
+    transform: scale(1.1);
+  }
+  
