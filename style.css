@@ -56,11 +56,11 @@ nav {
 
 /* About Section */
 .about {
-	background: #1371cff3;
-	background: linear-gradient(360deg, rgb(137, 225, 247) 0%, rgb(114, 203, 245) 100%);
+	background: white;
+	background: linear-gradient(360deg, white,0%, white 100%);
 	padding: 100px 0 20px 0;
 	text-align: center;
-    
+    background-image: url('/IMAGES/vecct.png');
 }
 
 .about h1 {
@@ -141,4 +141,3 @@ button:hover {
     font-family: cursive;
     font-weight: bold;
 }
-

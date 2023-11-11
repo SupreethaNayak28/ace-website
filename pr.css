@@ -1,0 +1,269 @@
+
+---------------
+/* Custom CSS for Navbar */
+
+.navbar {
+    background-color: #1371cff3; /* Dark background color */
+    margin-top: 20px; /* Adjust the value to move the navbar down as per your preference */
+}
+.nav-item{
+font-size: 20px;
+}
+.navbar-brand {
+    color:  #1371cff3 !important; /* White text color */
+    font-weight: bold;
+}
+.navbar-brand img{
+    max-width: 10%;
+    max-height: 10%;
+    color: #007bff;
+}
+.navbar-toggler-icon {
+    background-color: #1371cff3; /* White color for the toggle icon */
+}
+
+.navbar-nav .nav-link {
+    color: #1371cff3 !important; /* White text color for links */
+    margin-right: 15px; /* Adjust the spacing between links */
+}
+
+.navbar-nav .nav-link:hover {
+    color:  #1371cff3 !important; /* Lighter color on hover */
+}
+
+.btn-outline-secondary {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-outline-secondary:hover {
+    color: #343a40;
+    background-color: #ffffff;
+}
+
+/* Custom CSS for Hero Section */
+/* Custom CSS for Hero Section */
+body, html {
+    height: 100%; /* Set height to 100% for body and html elements */
+    margin: 0; /* Remove default margin */
+}
+
+.hero {
+    height: 95vh; /* Make the hero section fill the entire viewport height */
+    background-color:black ;/* Background color for the hero section */
+    background-image: url('/IMAGES/vecct.png');
+    text-align: center; /* Center the content */
+    display: flex; /* Use flexbox to center vertically */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center content vertically */
+    color:white; /* Text color */
+}
+/* Custom CSS for the text */
+.text {
+    margin-bottom: 20px; /* Margin between text and buttons */
+    font-size: 2rem; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    letter-spacing: 1px; /* Increase the letter spacing */
+    color:white; /* Text color */
+}
+
+
+.buttons a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* Text color for primary button */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Secondary button color */
+    color: #ffffff; /* Text color for secondary button */
+}
+
+/* Style for the image */
+.col-md-6 img {
+    max-width: 900px; /* Make the image cover the entire column */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: 8px; /* Add a border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+/* Setup Section Styles */
+.setup {
+  padding: 60px 0; /* Adjust the padding as needed */
+  background-color: #f8f9fa; /* Set your desired background color */
+}
+
+/* Text Header Styles */
+.text-header h3 {
+  color: #007bff; /* Set your desired text color */
+}
+
+/* Items Styles */
+.items {
+  margin-top: 30px; /* Adjust the margin as needed */
+}
+
+/* Icon Styles */
+.icons img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Description Styles */
+.desc {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 768px) {
+  .text-header h3 {
+    font-size: 24px; /* Adjust the font size for smaller screens */
+  }
+
+  .desc h5 {
+    font-size: 18px; /* Adjust the font size for smaller screens */
+  }
+}
+/* Setup Section Styles */
+.setup {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  /* Text Header Styles */
+  .text-header h3 {
+    color: #007bff;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .text-header p {
+    color: #6c757d;
+    font-size: 18px;
+  }
+  
+  /* Items Styles */
+  .items {
+    margin-top: 50px;
+  }
+  
+  /* Icon Styles */
+  .icons img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Description Styles */
+  .desc {
+    margin-top: 20px;
+  }
+  
+  .desc h5 {
+    color: #343a40;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .desc p {
+    color: #6c757d;
+    font-size: 16px;
+  }
+  
+  /* Responsive Styles for Small Screens */
+  @media (max-width: 768px) {
+    .text-header h3 {
+      font-size: 28px;
+    }
+  
+    .desc h5 {
+      font-size: 20px;
+    }
+  
+    .desc p {
+      font-size: 14px;
+    }
+  }
+  /* Info Section Styles */
+.info-1 {
+    padding: 60px 0;
+  }
+  
+  /* Text Information Styles */
+  .text-information h5 {
+    color: #007bff;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .text-information p {
+    color: #6c757d;
+    font-size: 18px;
+  }
+  
+  /* Image Styles */
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add a subtle border-radius to the image */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Styles for Small Screens */
+  @media (max-width: 768px) {
+    .text-information h5 {
+      font-size: 28px;
+    }
+  
+    .text-information p {
+      font-size: 16px;
+    }
+  }
+   /*footer starts*/
+.footer{
+    background:  #1371cff3;
+    margin:0;
+    padding:25px 0px;
+    margin-top: 2px;
+    box-sizing: border-box;
+  }
+  .row{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  ul{
+    list-style:none;
+  }
+  .footer-col {
+    width: 20%; /* Adjusted width to make it smaller */
+    padding: 0 15px;
+    margin-top: 2px;
+  }
+  
+  .footer-col h4 {
+    font-size: 22px; /* Decreased font size */
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px; /* Decreased margin */
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .footer-col ul a {
+    font-size: 14px; /* Decreased font size */
+  }
+  
+  .footer-col ul li a {
+    font-size: 20px; /* Decreased font size */
+    color: white;
+  }
+  
+  
